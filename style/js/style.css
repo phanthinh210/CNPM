@@ -1,0 +1,124 @@
+body{
+	background-image: url("style/img/nền.jpg");
+	font-family: Tahoma;
+	font-size: 13px;
+	width: 1349px;
+	margin: 0px auto;
+}
+
+#menu_top{
+	background: rgb(235, 12, 12);
+	height: 40px;
+}
+
+#banner{
+	height: 280px;
+	width: 1349px;
+}
+
+#main #left{
+	width: 1149px;
+	background: #ccc;
+	float: left;
+	min-height: 400px
+}
+
+#main #right{
+	padding: 0px 0px 0px 10px;
+	width: 190px;
+	background: pink;
+	float: left;
+	min-height: 400px;
+}
+
+#footer{
+	
+	background: #000;
+	width: 1349px;
+	text-align: center;
+	height: 60px;
+	color: #FFF;
+	line-height: 60px;
+}
+
+#menu_top ul{
+		margin: 0px;
+		padding:  0px;
+}
+
+#menu_top ul li a.act, #menu_top ul li a.active{
+	list-style: none;
+	float: right
+}
+
+#menu_top ul li a.act{
+	text-decoration: none;
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	color: #fff;
+	padding: 0px 10px 0px 10px;
+	border-left: 1px solid #ccc;
+}
+#menu_top ul li a.dn{
+	position:relative;
+	text-decoration: none;
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	color: #fff;
+	padding: 0px 10px 0px 10px;
+	left: 00px;
+	float: left;
+}
+
+#menu_top ul.menuside{
+	position: fixed;
+	height: 50px;
+	width: 85px;
+	background-color:rgb(226, 212, 212);
+	border: 1px solid brown; 
+	padding: 0px -15px 0px 5px;
+	float: left;
+}
+#menu_top ul li a.active{
+	text-decoration: none;
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	color: #fff;
+	padding: 0px 10px 0px 10px;
+	border-right: 1px solid #ccc;
+	background-color: #1949b5;
+}
+
+#banner img{
+	height: 280px;
+	width: 1349px;
+}
+
+#main #left ul li{
+	padding: 0px 32px 0px 0px;
+	width: 240px;
+	height: 300px;
+	list-style: none;
+	text-align: center;
+	float:  left;
+}
+
+#main #left ul li img{
+	width: 240px;
+}
+
+#main #left ul li a.suu{
+	padding: 0px 0px 0px 0px;
+}
+#main #right  li button{
+	width: 100px;	
+}
+#main #right  li button a{
+	float: left;
+}
+li{
+	list-style: none;
+}
