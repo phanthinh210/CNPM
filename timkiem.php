@@ -1,6 +1,5 @@
 <?php
 	require("dbconnect.php");
-	include("clspage.php");
 	include("phantrang.php");
   $id = isset($_POST['timkiemsanpham'])? $_POST['timkiemsanpham']:"";
 	$sql= "select * from sanpham where tenhang like '%$id%' or mahang='$id' limit ".$start.",".$limit;

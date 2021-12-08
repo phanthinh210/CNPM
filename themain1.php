@@ -1,6 +1,5 @@
 <?php
 	require("dbconnect.php");
-	include("clspage.php");
 	include("phantrang.php");
     $id = $_GET['iddanhmuc'];
 

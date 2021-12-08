@@ -1,7 +1,5 @@
 <?php
 	include("dbconnect.php");
-
-	include("clspage.php");
 	include("phantrang.php");
 
 	if(isset($_GET['idgiamgia']))

@@ -1,10 +1,10 @@
 <?php
-    require_once('config/db.php');
+    require_once('dbconnect.php');
     $title = 'Quản lý sản phẩm';
-     $sql="SELECT *FROM sanpham inner join loaisp on sanpham.maloai=loaisp.maloai";
-    $query=mysqli_query($connect,$sql);
+    $sql="SELECT *FROM sanpham inner join loaisp on sanpham.maloai=loaisp.maloai";
+    $query=mysqli_query($conn,$sql);
     $list="SELECT *FROM loaisp";
-    $result=mysqli_query($connect,$list);
+    $result=mysqli_query($conn,$list);
 ?>
 
 

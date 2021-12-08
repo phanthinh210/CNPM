@@ -19,7 +19,7 @@
 	 <?php 
 	if(($_SESSION['username']) != 'admin'){
 		 ?>
-		 <li><div align="center"><a href="gio-hang.html"><strong>Giỏ hàng</strong> - <i><?php if(isset($_SESSION["hang"])){echo count($_SESSION["hang"]);}?></i> SP</a></li>
+		 <li><div align="center"><a href="gio-hang.html"><strong>Giỏ hàng</strong> </a></li>
 		 <li><div align="center"><a href="don-hang.html"><strong>Đơn hàng</strong></a></li>
 		 <?php
 		}
