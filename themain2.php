@@ -28,7 +28,7 @@
 				<button class="button-idsp">Mã SP: <?php echo $rows['mahang'];?></button>
 			</div>
 			<div class="btn-idsp">
-				<button class="button-idsp">Trọng lượng: <?php echo $rows['sogr1sp'];?> gram</button>
+				<button class="button-idsp">Số lượng: <?php echo $rows['sogr1sp'];?> sản phẩm</button>
 			</div>
 			<div class="btn-mua">
 				<form name="adminForm" id="adminForm" action="muahang.php?muahang=<?php echo $rows['mahang'];?>" method="post">
