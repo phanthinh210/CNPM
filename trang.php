@@ -63,7 +63,6 @@
               </ul>
             </li>
             <li><a href="trang.php?page_layout=thanhvien"><i class="fa fa-bar-chart-o"></i> Danh sách người dùng</a></li>
-            <li><a href="tables.html"><i class="fa fa-table"></i> Danh sách đơn hàng</a></li>
            
             
           </ul>

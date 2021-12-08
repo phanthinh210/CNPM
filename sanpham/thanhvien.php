@@ -13,11 +13,11 @@
             <table class="table table-bordered table-hover">
                 <thead class="thead-dark">
                     <tr>
-                        <th>#</th>
+                        <th>STT</th>
                         <th>Tên </th>
-                        <th>Quê</th>
-                        <th>User</th>
-                        <th>PassWord</th>
+                        <th>Quê quán</th>
+                        <th>Tài khoản</th>
+                        <th>Mật khẩu</th>
                       
         
                         

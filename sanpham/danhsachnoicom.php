@@ -17,7 +17,7 @@
             <table class="table">
                 <thead class="thead-dark">
                     <tr>
-                        <th>#</th>
+                        <th>Mã sản phẩm</th>
                         <th>Tên sản phẩm</th>
                         <th>Ảnh sản phẩm</th>
                         <th>Giá sản phẩm</th>
@@ -32,7 +32,7 @@
                    $i=1;
                    while($row=mysqli_fetch_assoc($query)){?>
                     <tr>
-                        <td><?php echo $i++;?></td>
+                        <td><?php echo $row['mahang'];?></td>
                         <td><?php echo $row['tenhang'];?></td>
                         <td>
                             <img style="width:100px;" src="images/sanpham/<?php echo $row['hinhanh'];?>">
