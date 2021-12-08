@@ -1,3 +1,4 @@
 RewriteEngine on
 RewriteRule ^dangnhap.html$ index.php?action=1
 RewriteRule ^dangky.html$ index.php?action=2
+RewriteRule ^thoat.html$ linkthoat.php
