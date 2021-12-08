@@ -1,6 +1,6 @@
 <?php
     $sql="SELECT *FROM thanhvien";
-    $query=mysqli_query($connect,$sql);
+    $query=mysqli_query($conn,$sql);
     
 ?>
 

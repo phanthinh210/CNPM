@@ -1,9 +1,9 @@
 <?php
     $id=$_GET["id"];
     $sql="SELECT *FROM sanpham  WHERE maloai= '$id' ";
-    $query=mysqli_query($connect,$sql);
+    $query=mysqli_query($conn,$sql);
     $sqll="SELECT *FROM loaisp WHERE maloai= '$id' ";
-    $queryy=mysqli_query($connect,$sqll);
+    $queryy=mysqli_query($conn,$sqll);
     
     
 ?>

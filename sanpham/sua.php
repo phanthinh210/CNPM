@@ -3,10 +3,10 @@
 
   
    $sql_catagory="SELECT *from loaisp";
-   $query_catagory=mysqli_query($connect,$sql_catagory);
+   $query_catagory=mysqli_query($conn,$sql_catagory);
 
    $sql_up="SELECT*FROM sanpham where mahang=$id";
-   $query_up = mysqli_query($connect,$sql_up);
+   $query_up = mysqli_query($conn,$sql_up);
    $row_up=mysqli_fetch_assoc($query_up);
 
 
@@ -30,7 +30,7 @@
 
        $sql="UPDATE sanpham SET tenhang='$tenhang',hinhanh='$Image',giatien=$giatien,
        sogr1sp='$sogr1sp',chitiet='$chitiet',maloai='$maloai'where mahang=$id";
-       $query=mysqli_query($connect,$sql);
+       $query=mysqli_query($conn,$sql);
        
        header('location:trang.php?page_layout=danhsach');
    }

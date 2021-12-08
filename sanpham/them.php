@@ -1,6 +1,6 @@
 <?php
    $sql_catagory="SELECT *from loaisp";
-   $query_catagory=mysqli_query($connect,$sql_catagory);
+   $query_catagory=mysqli_query($conn,$sql_catagory);
    if(isset($_POST['sbm'])){
        $ProductName=$_POST['ProductName'];
 
@@ -15,7 +15,7 @@
 
        $sql="INSERT INTO sanpham(tenhang,hinhanh,giatien,sogr1sp,chitiet,maloai)
        VALUES('$ProductName','$Image',$UnitPrice,$Quantity,'$Description','$idloai')";
-       $query=mysqli_query($connect,$sql);
+       $query=mysqli_query($conn,$sql);
        move_uploaded_file($Image_tmp,'img/'.$Image);
        header('location:trang.php?page_layout=danhsach');
    }

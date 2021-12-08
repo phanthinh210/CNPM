@@ -1,8 +1,8 @@
 <?php
     $sql="SELECT *FROM sanpham inner join loaisp on sanpham.maloai=loaisp.maloai";
-    $query=mysqli_query($connect,$sql);
+    $query=mysqli_query($conn,$sql);
     $list="SELECT *FROM loaisp";
-    $result=mysqli_query($connect,$list);
+    $result=mysqli_query($conn,$list);
 ?>
 
 <div class="container-fluid">
